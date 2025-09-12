@@ -16,6 +16,7 @@ print('Numero correto!')
 
 #Validação com while
 #Exemplo:
+'''
 '''senha = ''
 while senha != '1234':
     numero = input('Digite a senha: ').strip()   
@@ -24,12 +25,12 @@ while senha != '1234':
 print('Numero correto!')'''
 
 
-#For e range
-#Exemplo
+'''For e range
+Exemplo
 for i in range(0,31,10):
     print(i)'''
 
-while True:
+'''while True:
     try:
         numero = int(input('Digite um nº maior que 10: '))
         if numero <=10:
@@ -40,7 +41,4 @@ while True:
 
 #Tabuada
 for i in range(1,11):
-    print(f'7 x {i} = {7*i}')
-
-
-    
+    print(f'7 x {i} = {7*i}')'''
