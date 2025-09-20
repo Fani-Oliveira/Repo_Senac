@@ -291,3 +291,6 @@ HAVING media_gasto> 1000;
 
 
 
+
+
+

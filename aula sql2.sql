@@ -71,3 +71,4 @@ DROP TABLE produto;
 SELECT cliente.nome, pedido.id AS id_pedido
 FROM cliente
 LEFT JOIN pedido ON cliente.id = pedido.cliente_id
+

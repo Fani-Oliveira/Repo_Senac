@@ -1,8 +1,8 @@
-'''nome = 'Joao','Jose'
+nome = 'Joao','Jose'
 
-print(nome)'''
+print(nome)
 
-'''cliente = []
+cliente = []
 while True:
     try:
         num = int(input('Digite o Nº: '))
@@ -18,13 +18,13 @@ while True:
 
 
 for i in cliente:
-    print(i)'''
+    print(i)
 
-'''telefone = 2199563215
+telefone = 2199563215
 idade = 32
-cliente.append(telefone)'''
+cliente.append(telefone)
 
-'''print('1\n2\n3\n4')
+print('1\n2\n3\n4')
 
 while True:
     try:
@@ -35,7 +35,7 @@ while True:
         else:
             print('opcao invalida')
     except:
-        print('Digite um nº valido: ')'''
+        print('Digite um nº valido: ')
 
 cadastro = []
 int(input('Informe quantos produtos deseja cadastrar: '))
