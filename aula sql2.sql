@@ -70,5 +70,9 @@ DROP TABLE produto;
 
 SELECT cliente.nome, pedido.id AS id_pedido
 FROM cliente
+<<<<<<< HEAD
 LEFT JOIN pedido ON cliente.id = pedido.cliente_id
 
+=======
+LEFT JOIN pedido ON cliente.id = pedido.cliente_id
+>>>>>>> 95bf32b928d3c4cd02511cd346c088ad26c11ca7

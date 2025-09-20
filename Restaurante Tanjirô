@@ -1,0 +1,62 @@
+print('---KAMADO TANJIRÔ---')
+print('Restaurante Japonês')
+#Menu Digital com preços dos pratos
+
+print('Menu')
+
+print('-ENTRADAS')
+entradas = ['Edamame', 'Guioza', 'Sunomono','Tempurá']
+valor_entradas = ['27.90','27.90','19.90','59.90']
+largura1 = max(len(item) for item in entradas)
+largura2 = max(len(item) for item in valor_entradas)
+for item1, item2 in zip(entradas, valor_entradas):
+    print(f"{item1:<{largura1}}  |  {item2:<{largura2}}")
+
+print('-COMBO HOT ROLL - 12UN')
+combo = ['Philadelphia','Salmão','Kani','Banana']
+valor_combo = ['22.90','24.90','22.90','18.90']
+largura1 = max(len(item) for item in combo)
+largura2 = max(len(item) for item in valor_combo)
+for item1, item2 in zip(combo, valor_combo):
+    print(f"{item1:<{largura1}}  |  {item2:<{largura2}}")
+
+print('-SASHIMI')
+sashimi = ['Salmão','Atum']
+valor_sashimi = ['28.90','31.50']
+largura1 = max(len(item) for item in sashimi)
+largura2 = max(len(item) for item in valor_sashimi)
+for item1, item2 in zip(sashimi, valor_sashimi):
+    print(f"{item1:<{largura1}}  |  {item2:<{largura2}}")
+
+print('-SUSHI')
+sushi = ['Uramaki Philadelphia','Uramaki Kani','Hossomaki Salmão','Niguiri Salmão']
+valor_sushi = ['30.90','27,90','38.90','31.90']
+largura1 = max(len(item) for item in sushi)
+largura2 = max(len(item) for item in valor_sushi)
+for item1, item2 in zip(sushi, valor_sushi):
+    print(f"{item1:<{largura1}}  |  {item2:<{largura2}}")
+
+print('-TEMAKI')
+temaki = ['Philadelphia','Salmão']
+valor_temaki = ['28.90','31.50']
+largura1 = max(len(item) for item in temaki)
+largura2 = max(len(item) for item in valor_temaki)
+for item1, item2 in zip(temaki, valor_temaki):
+    print(f"{item1:<{largura1}}  |  {item2:<{largura2}}")
+
+print('-YAKISOBA')
+yakisoba = ['Yakisoba de Frango','Yakisoba de Carne','Yakisoba de Legumes','Yakisoba de Camarão']
+valor_yakisoba = ['29.90','31.90','27.90','33.90']
+largura1 = max(len(item) for item in yakisoba)
+largura2 = max(len(item) for item in valor_yakisoba)
+for item1, item2 in zip(yakisoba, valor_yakisoba):
+    print(f"{item1:<{largura1}}  |  {item2:<{largura2}}")
+
+print('-BEBIDAS')
+bebidas = ['Refrigerante','Suco','Água Com Gás', 'Água Sem Gás','Saquê']
+valor_bebidas = ['8.90','10.90','5.90','4.90','29.50']
+largura1 = max(len(item) for item in bebidas)
+largura2 = max(len(item) for item in valor_bebidas)
+for item1, item2 in zip(bebidas, valor_bebidas):
+    print(f"{item1:<{largura1}}  |  {item2:<{largura2}}")
+
